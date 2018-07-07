@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106210BD94AB6A8EA5C7647F /* libPods-TempTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E83964B8EB735FCC6A2FC2 /* libPods-TempTestTests.a */; };
+		4347CED9F524620CE9B7B3FD /* libPods-TempTestUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C75942E7FA3C28BA8FA12011 /* libPods-TempTestUITests.a */; };
 		B02E58B020F05D9000B02518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E58AF20F05D9000B02518 /* AppDelegate.m */; };
 		B02E58B320F05D9000B02518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E58B220F05D9000B02518 /* ViewController.m */; };
 		B02E58B620F05D9000B02518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02E58B420F05D9000B02518 /* Main.storyboard */; };
@@ -15,6 +17,20 @@
 		B02E58BE20F05D9000B02518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E58BD20F05D9000B02518 /* main.m */; };
 		B02E58C820F05D9000B02518 /* TempTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E58C720F05D9000B02518 /* TempTestTests.m */; };
 		B02E58D320F05D9000B02518 /* TempTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E58D220F05D9000B02518 /* TempTestUITests.m */; };
+		B02E592B20F061AD00B02518 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = B02E592A20F061AC00B02518 /* loading.gif */; };
+		B02E599020F06A7D00B02518 /* BSAnimatedImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E597A20F06A7D00B02518 /* BSAnimatedImageRep.m */; };
+		B02E599120F06A7D00B02518 /* BSWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E597B20F06A7D00B02518 /* BSWebImageFrame.m */; };
+		B02E599220F06A7D00B02518 /* BSWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598120F06A7D00B02518 /* BSWebImageGIFCoder.m */; };
+		B02E599320F06A7D00B02518 /* BSWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598320F06A7D00B02518 /* BSWebImageImageIOCoder.m */; };
+		B02E599420F06A7D00B02518 /* UIImage+BSGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598620F06A7D00B02518 /* UIImage+BSGIF.m */; };
+		B02E599520F06A7D00B02518 /* NSData+BSImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598720F06A7D00B02518 /* NSData+BSImageContentType.m */; };
+		B02E599620F06A7D00B02518 /* BSWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598820F06A7D00B02518 /* BSWebImageCoder.m */; };
+		B02E599720F06A7D00B02518 /* UIImage+BSMultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598920F06A7D00B02518 /* UIImage+BSMultiFormat.m */; };
+		B02E599820F06A7D00B02518 /* BSWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598A20F06A7D00B02518 /* BSWebImageCoderHelper.m */; };
+		B02E599920F06A7D00B02518 /* NSImage+BSWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598B20F06A7D00B02518 /* NSImage+BSWebCache.m */; };
+		B02E599A20F06A7D00B02518 /* BSWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598D20F06A7D00B02518 /* BSWebImageCompat.m */; };
+		B02E599B20F06A7D00B02518 /* BSWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B02E598E20F06A7D00B02518 /* BSWebImageCodersManager.m */; };
+		DC3775184F19B7C630512D85 /* libPods-TempTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB496EDB49D5A80E97BF2F20 /* libPods-TempTest.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		289A8FA8A7993664BF6FE4D8 /* Pods-TempTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempTestTests/Pods-TempTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		394D1B9723654C54222B2D95 /* Pods-TempTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempTestUITests/Pods-TempTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54E83964B8EB735FCC6A2FC2 /* libPods-TempTestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TempTestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56DC44AF750933DED1446EDC /* Pods-TempTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-TempTest/Pods-TempTest.release.xcconfig"; sourceTree = "<group>"; };
+		90605868B9E6F6D02AD75468 /* Pods-TempTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempTest/Pods-TempTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B13E92368499CB5495830D /* Pods-TempTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempTestTests/Pods-TempTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B02E58AB20F05D9000B02518 /* TempTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02E58AE20F05D9000B02518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B02E58AF20F05D9000B02518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +73,34 @@
 		B02E58CE20F05D9000B02518 /* TempTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02E58D220F05D9000B02518 /* TempTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TempTestUITests.m; sourceTree = "<group>"; };
 		B02E58D420F05D9000B02518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B02E592A20F061AC00B02518 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		B02E597820F06A7D00B02518 /* NSData+BSImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+BSImageContentType.h"; sourceTree = "<group>"; };
+		B02E597920F06A7D00B02518 /* UIImage+BSGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BSGIF.h"; sourceTree = "<group>"; };
+		B02E597A20F06A7D00B02518 /* BSAnimatedImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSAnimatedImageRep.m; sourceTree = "<group>"; };
+		B02E597B20F06A7D00B02518 /* BSWebImageFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageFrame.m; sourceTree = "<group>"; };
+		B02E597C20F06A7D00B02518 /* BSWebImageCoderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageCoderHelper.h; sourceTree = "<group>"; };
+		B02E597D20F06A7D00B02518 /* UIImage+BSMultiFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BSMultiFormat.h"; sourceTree = "<group>"; };
+		B02E597E20F06A7D00B02518 /* BSWebImageCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageCoder.h; sourceTree = "<group>"; };
+		B02E597F20F06A7D00B02518 /* BSWebImageCodersManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageCodersManager.h; sourceTree = "<group>"; };
+		B02E598020F06A7D00B02518 /* BSWebImageCompat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageCompat.h; sourceTree = "<group>"; };
+		B02E598120F06A7D00B02518 /* BSWebImageGIFCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageGIFCoder.m; sourceTree = "<group>"; };
+		B02E598220F06A7D00B02518 /* NSImage+BSWebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+BSWebCache.h"; sourceTree = "<group>"; };
+		B02E598320F06A7D00B02518 /* BSWebImageImageIOCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		B02E598420F06A7D00B02518 /* BSWebImageFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageFrame.h; sourceTree = "<group>"; };
+		B02E598520F06A7D00B02518 /* BSAnimatedImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSAnimatedImageRep.h; sourceTree = "<group>"; };
+		B02E598620F06A7D00B02518 /* UIImage+BSGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BSGIF.m"; sourceTree = "<group>"; };
+		B02E598720F06A7D00B02518 /* NSData+BSImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+BSImageContentType.m"; sourceTree = "<group>"; };
+		B02E598820F06A7D00B02518 /* BSWebImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageCoder.m; sourceTree = "<group>"; };
+		B02E598920F06A7D00B02518 /* UIImage+BSMultiFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BSMultiFormat.m"; sourceTree = "<group>"; };
+		B02E598A20F06A7D00B02518 /* BSWebImageCoderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageCoderHelper.m; sourceTree = "<group>"; };
+		B02E598B20F06A7D00B02518 /* NSImage+BSWebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+BSWebCache.m"; sourceTree = "<group>"; };
+		B02E598C20F06A7D00B02518 /* BSWebImageGIFCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageGIFCoder.h; sourceTree = "<group>"; };
+		B02E598D20F06A7D00B02518 /* BSWebImageCompat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageCompat.m; sourceTree = "<group>"; };
+		B02E598E20F06A7D00B02518 /* BSWebImageCodersManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSWebImageCodersManager.m; sourceTree = "<group>"; };
+		B02E598F20F06A7D00B02518 /* BSWebImageImageIOCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		BB496EDB49D5A80E97BF2F20 /* libPods-TempTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TempTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C75942E7FA3C28BA8FA12011 /* libPods-TempTestUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TempTestUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0842D5E179647BBAC0E2E8 /* Pods-TempTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TempTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TempTestUITests/Pods-TempTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC3775184F19B7C630512D85 /* libPods-TempTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106210BD94AB6A8EA5C7647F /* libPods-TempTestTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +124,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4347CED9F524620CE9B7B3FD /* libPods-TempTestUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62C33EE676DAAE978FD1744E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB496EDB49D5A80E97BF2F20 /* libPods-TempTest.a */,
+				54E83964B8EB735FCC6A2FC2 /* libPods-TempTestTests.a */,
+				C75942E7FA3C28BA8FA12011 /* libPods-TempTestUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B02E58A220F05D9000B02518 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +148,8 @@
 				B02E58C620F05D9000B02518 /* TempTestTests */,
 				B02E58D120F05D9000B02518 /* TempTestUITests */,
 				B02E58AC20F05D9000B02518 /* Products */,
+				E13BA13F8F9015893A90F333 /* Pods */,
+				62C33EE676DAAE978FD1744E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +166,8 @@
 		B02E58AD20F05D9000B02518 /* TempTest */ = {
 			isa = PBXGroup;
 			children = (
+				B02E597720F06A7D00B02518 /* BSWebImg */,
+				B02E592A20F061AC00B02518 /* loading.gif */,
 				B02E58AE20F05D9000B02518 /* AppDelegate.h */,
 				B02E58AF20F05D9000B02518 /* AppDelegate.m */,
 				B02E58B120F05D9000B02518 /* ViewController.h */,
@@ -132,6 +199,50 @@
 			path = TempTestUITests;
 			sourceTree = "<group>";
 		};
+		B02E597720F06A7D00B02518 /* BSWebImg */ = {
+			isa = PBXGroup;
+			children = (
+				B02E597820F06A7D00B02518 /* NSData+BSImageContentType.h */,
+				B02E597920F06A7D00B02518 /* UIImage+BSGIF.h */,
+				B02E597A20F06A7D00B02518 /* BSAnimatedImageRep.m */,
+				B02E597B20F06A7D00B02518 /* BSWebImageFrame.m */,
+				B02E597C20F06A7D00B02518 /* BSWebImageCoderHelper.h */,
+				B02E597D20F06A7D00B02518 /* UIImage+BSMultiFormat.h */,
+				B02E597E20F06A7D00B02518 /* BSWebImageCoder.h */,
+				B02E597F20F06A7D00B02518 /* BSWebImageCodersManager.h */,
+				B02E598020F06A7D00B02518 /* BSWebImageCompat.h */,
+				B02E598120F06A7D00B02518 /* BSWebImageGIFCoder.m */,
+				B02E598220F06A7D00B02518 /* NSImage+BSWebCache.h */,
+				B02E598320F06A7D00B02518 /* BSWebImageImageIOCoder.m */,
+				B02E598420F06A7D00B02518 /* BSWebImageFrame.h */,
+				B02E598520F06A7D00B02518 /* BSAnimatedImageRep.h */,
+				B02E598620F06A7D00B02518 /* UIImage+BSGIF.m */,
+				B02E598720F06A7D00B02518 /* NSData+BSImageContentType.m */,
+				B02E598820F06A7D00B02518 /* BSWebImageCoder.m */,
+				B02E598920F06A7D00B02518 /* UIImage+BSMultiFormat.m */,
+				B02E598A20F06A7D00B02518 /* BSWebImageCoderHelper.m */,
+				B02E598B20F06A7D00B02518 /* NSImage+BSWebCache.m */,
+				B02E598C20F06A7D00B02518 /* BSWebImageGIFCoder.h */,
+				B02E598D20F06A7D00B02518 /* BSWebImageCompat.m */,
+				B02E598E20F06A7D00B02518 /* BSWebImageCodersManager.m */,
+				B02E598F20F06A7D00B02518 /* BSWebImageImageIOCoder.h */,
+			);
+			path = BSWebImg;
+			sourceTree = "<group>";
+		};
+		E13BA13F8F9015893A90F333 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90605868B9E6F6D02AD75468 /* Pods-TempTest.debug.xcconfig */,
+				56DC44AF750933DED1446EDC /* Pods-TempTest.release.xcconfig */,
+				A1B13E92368499CB5495830D /* Pods-TempTestTests.debug.xcconfig */,
+				289A8FA8A7993664BF6FE4D8 /* Pods-TempTestTests.release.xcconfig */,
+				FD0842D5E179647BBAC0E2E8 /* Pods-TempTestUITests.debug.xcconfig */,
+				394D1B9723654C54222B2D95 /* Pods-TempTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02E58D720F05D9000B02518 /* Build configuration list for PBXNativeTarget "TempTest" */;
 			buildPhases = (
+				F5456939D7B34E1B510F8598 /* [CP] Check Pods Manifest.lock */,
 				B02E58A720F05D9000B02518 /* Sources */,
 				B02E58A820F05D9000B02518 /* Frameworks */,
 				B02E58A920F05D9000B02518 /* Resources */,
+				9849F5FC99900667148DB607 /* [CP] Embed Pods Frameworks */,
+				3E1E47A6A54CCA49576F0148 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +270,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02E58DA20F05D9000B02518 /* Build configuration list for PBXNativeTarget "TempTestTests" */;
 			buildPhases = (
+				483537F31AAC9A9CD60BA96F /* [CP] Check Pods Manifest.lock */,
 				B02E58BF20F05D9000B02518 /* Sources */,
 				B02E58C020F05D9000B02518 /* Frameworks */,
 				B02E58C120F05D9000B02518 /* Resources */,
+				F825D987EAA4697DCB9A12C0 /* [CP] Embed Pods Frameworks */,
+				CAFA734A7BC4E9A49E067E60 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +291,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B02E58DD20F05D9000B02518 /* Build configuration list for PBXNativeTarget "TempTestUITests" */;
 			buildPhases = (
+				582C257D2764BAFA02AF2DBD /* [CP] Check Pods Manifest.lock */,
 				B02E58CA20F05D9000B02518 /* Sources */,
 				B02E58CB20F05D9000B02518 /* Frameworks */,
 				B02E58CC20F05D9000B02518 /* Resources */,
+				0584C805AF7CC2843256103E /* [CP] Embed Pods Frameworks */,
+				C15B8E9DB98A804F17AFF562 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,6 +359,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02E58BB20F05D9000B02518 /* LaunchScreen.storyboard in Resources */,
+				B02E592B20F061AD00B02518 /* loading.gif in Resources */,
 				B02E58B820F05D9000B02518 /* Assets.xcassets in Resources */,
 				B02E58B620F05D9000B02518 /* Main.storyboard in Resources */,
 			);
@@ -260,14 +381,173 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0584C805AF7CC2843256103E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempTestUITests/Pods-TempTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1E47A6A54CCA49576F0148 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempTest/Pods-TempTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		483537F31AAC9A9CD60BA96F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		582C257D2764BAFA02AF2DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9849F5FC99900667148DB607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempTest/Pods-TempTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15B8E9DB98A804F17AFF562 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempTestUITests/Pods-TempTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAFA734A7BC4E9A49E067E60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempTestTests/Pods-TempTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5456939D7B34E1B510F8598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TempTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F825D987EAA4697DCB9A12C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TempTestTests/Pods-TempTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B02E58A720F05D9000B02518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B02E58B320F05D9000B02518 /* ViewController.m in Sources */,
+				B02E599820F06A7D00B02518 /* BSWebImageCoderHelper.m in Sources */,
+				B02E599420F06A7D00B02518 /* UIImage+BSGIF.m in Sources */,
+				B02E599020F06A7D00B02518 /* BSAnimatedImageRep.m in Sources */,
+				B02E599520F06A7D00B02518 /* NSData+BSImageContentType.m in Sources */,
+				B02E599A20F06A7D00B02518 /* BSWebImageCompat.m in Sources */,
+				B02E599B20F06A7D00B02518 /* BSWebImageCodersManager.m in Sources */,
+				B02E599920F06A7D00B02518 /* NSImage+BSWebCache.m in Sources */,
+				B02E599720F06A7D00B02518 /* UIImage+BSMultiFormat.m in Sources */,
 				B02E58BE20F05D9000B02518 /* main.m in Sources */,
+				B02E599120F06A7D00B02518 /* BSWebImageFrame.m in Sources */,
+				B02E599220F06A7D00B02518 /* BSWebImageGIFCoder.m in Sources */,
+				B02E599620F06A7D00B02518 /* BSWebImageCoder.m in Sources */,
 				B02E58B020F05D9000B02518 /* AppDelegate.m in Sources */,
+				B02E599320F06A7D00B02518 /* BSWebImageImageIOCoder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +708,13 @@
 		};
 		B02E58D820F05D9000B02518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90605868B9E6F6D02AD75468 /* Pods-TempTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24PU8VMYVH;
 				INFOPLIST_FILE = TempTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fdsa.TempTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,10 +724,13 @@
 		};
 		B02E58D920F05D9000B02518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56DC44AF750933DED1446EDC /* Pods-TempTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24PU8VMYVH;
 				INFOPLIST_FILE = TempTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = fdsa.TempTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -454,6 +740,7 @@
 		};
 		B02E58DB20F05D9000B02518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B13E92368499CB5495830D /* Pods-TempTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +755,7 @@
 		};
 		B02E58DC20F05D9000B02518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289A8FA8A7993664BF6FE4D8 /* Pods-TempTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -482,6 +770,7 @@
 		};
 		B02E58DE20F05D9000B02518 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0842D5E179647BBAC0E2E8 /* Pods-TempTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TempTestUITests/Info.plist;
@@ -495,6 +784,7 @@
 		};
 		B02E58DF20F05D9000B02518 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394D1B9723654C54222B2D95 /* Pods-TempTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TempTestUITests/Info.plist;

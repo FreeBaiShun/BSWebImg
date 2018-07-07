@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+BSGIF.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,19 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    NSString  *filePath = [[NSBundle bundleWithPath:[[NSBundle mainBundle] bundlePath]]pathForResource:@"loading" ofType:@"gif"];
+    
+    NSData  *imageData = [NSData dataWithContentsOfFile:filePath];
+    
+    UIImage *img = [UIImage bs_animatedGIFWithData:imageData];
+    
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 300, 300)];
+    imageView.image = img;
+    [self.view addSubview:imageView];
+    
 }
 
 
@@ -27,3 +40,14 @@
 
 
 @end
+
+
+
+
+
+
+
+
+
+
+
